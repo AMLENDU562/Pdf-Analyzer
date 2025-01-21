@@ -13,7 +13,7 @@ The backend will process these documents and utilize natural language processing
    ```sh
    cd pdf-analyzer
    ```
-3. Follow the frontend and backend setup procedures described above.
+3. Follow the frontend and backend setup procedures described below.
 4. Ensure the `.env` file is properly configured with the necessary API keys.
 5. Start both the frontend and backend servers.
 6. Access the frontend at `http://localhost:3000` and the backend at `http://localhost:5000`.
@@ -82,7 +82,7 @@ The backend will process these documents and utilize natural language processing
 ### 5. Update PDF Query Data in Database
 **Endpoint:** `/api/putDatabase/Data`  
 **Method:** `PUT`  
-**Description:** After each stores query results and updates PDF data. 
+**Description:** After each query. Query is send to api to store and update mongodb. 
 
 
 ---
