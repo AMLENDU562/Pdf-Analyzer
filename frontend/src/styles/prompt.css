@@ -1,0 +1,236 @@
+.prompt-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8fafc;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-logo {
+    
+    width: 100px;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right:40px;
+}
+
+.file-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.upload-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f8fafc;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-textarea {
+    flex: 1;
+    max-width: 80%;
+    height: 40px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    resize: none;
+}
+
+.uploadButton{
+    content-visibility: hidden;
+  
+}
+
+.search-button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #007bb5;
+}
+
+/*message section*/
+
+.message-section {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 130px; /* Offset for fixed navbar */
+    padding:0px;
+}
+
+.chat-userSection{
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f5f9;
+    padding:20px;
+
+}
+.chat-userLogo{
+    color:white;
+    background-color: #008cba;
+    border-radius: 100%;
+    padding:15px 30px;
+    margin-right:10px;
+    
+}
+
+
+.chat-AiSection{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding:0px;
+
+}
+.chat-AiLogo{
+    border-radius: 100%;
+    padding:0px;
+    margin-right:10px;
+    
+}
+
+.chat-AiLogo img{
+    border-radius: 100%;
+    padding:0px;
+
+    width:100px;
+    height:100px;
+    
+}
+
+.textChat{
+    text-align: justify;
+    line-height: 1.5em;
+}
+.textAi{
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    
+    .upload-button{
+        width:100px;
+        padding:0;
+
+    }
+   
+
+    .navbar-actions {
+        max-width: 100%;
+    }
+
+    .uploadButton{
+        content-visibility: visible;
+        width:50px;
+    }
+
+    .uploadText{
+        content-visibility: hidden;
+    }
+
+    .file-input{
+        width: 48%;
+    }
+
+    .search-textarea {
+        max-width: 70%;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        
+
+    }
+
+    .search-section {
+        padding: 10px;
+        }
+
+
+        .message-section{
+            margin-top: 80px;
+        }
+}
+
+@media (max-width: 480px) {
+    .navbar-logo {
+        height: 30px;
+    }
+
+    .upload-button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .search-textarea {
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .search-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .message-section{
+        margin-top: 80px;
+    }
+}
+
