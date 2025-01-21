@@ -84,14 +84,6 @@ The backend will process these documents and utilize natural language processing
 **Method:** `PUT`  
 **Description:** After each stores query results and updates PDF data. 
 
----
-
-### Author
-Developed a pdf uploader analyzer in which user can provide their question to prompt and answer will provided to user  which is made using **React (frontend)** and **Node.js (backend)** with **MongoDB, Dropbox, and Gemini AI integration**.
-
----
-
-
 
 ---
 ## Author
