@@ -1,7 +1,7 @@
 # PDF Analyzer And Prompt
 
 # About  
-Develop a full-stack application that allows users to upload PDF documents and ask questions regarding the content of these documents. 
+Developed a full-stack application that allows users to upload PDF documents and ask questions regarding the content of these documents. 
 The backend will process these documents and utilize natural language processing to provide answers to the questions posed by the users.
 
 ## Setup Instructions
@@ -87,7 +87,7 @@ The backend will process these documents and utilize natural language processing
 ---
 
 ### Author
-Developed as part of a movie app using **React (frontend)** and **Node.js (backend)** with **MongoDB, Dropbox, and Gemini AI integration**.
+Developed a pdf uploader analyzer in which user can provide their question to prompt and answer will provided to user  which is made using **React (frontend)** and **Node.js (backend)** with **MongoDB, Dropbox, and Gemini AI integration**.
 
 ---
 
