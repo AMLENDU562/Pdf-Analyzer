@@ -1,4 +1,4 @@
-# PDF Analyzer And Prompt
+# PDF Analyzer And Prompter
 
 # About  
 Developed a full-stack application that allows users to upload PDF documents and ask questions regarding the content of these documents. 
